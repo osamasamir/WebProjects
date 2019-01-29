@@ -1,0 +1,74 @@
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\roslyn\csc.exe
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\roslyn\vbc.exe
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\roslyn\VBCSCompiler.exe
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\E-Commerce.dll.config
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\E-Commerce.dll
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\E-Commerce.pdb
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\EntityFramework.dll
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\EntityFramework.SqlServer.dll
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\System.Web.Helpers.dll
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\System.Web.Mvc.dll
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\System.Web.Razor.dll
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\System.Web.Webpages.Deployment.dll
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\System.Web.Webpages.dll
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\System.Web.Webpages.Razor.dll
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\EntityFramework.xml
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\EntityFramework.SqlServer.xml
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\System.Web.Razor.xml
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\System.Web.Webpages.xml
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\System.Web.Webpages.Deployment.xml
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\System.Web.Webpages.Razor.xml
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\System.Web.Helpers.xml
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\bin\System.Web.Mvc.xml
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\obj\Debug\E-Commerce.dll
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\obj\Debug\E-Commerce.pdb
+C:\Users\المصطفى نت\Documents\Visual Studio 2015\Projects\E-Commerce\E-Commerce\obj\Debug\E-Commerce.csprojResolveAssemblyReference.cache
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\roslyn\csc.exe
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\roslyn\vbc.exe
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\roslyn\VBCSCompiler.exe
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\E-Commerce.dll.config
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\E-Commerce.dll
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\E-Commerce.pdb
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\EntityFramework.dll
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\EntityFramework.SqlServer.dll
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\System.Web.Helpers.dll
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\System.Web.Mvc.dll
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\System.Web.Razor.dll
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\System.Web.Webpages.Deployment.dll
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\System.Web.Webpages.dll
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\System.Web.Webpages.Razor.dll
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\EntityFramework.xml
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\EntityFramework.SqlServer.xml
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\System.Web.Razor.xml
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\System.Web.Webpages.xml
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\System.Web.Webpages.Deployment.xml
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\System.Web.Webpages.Razor.xml
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\System.Web.Helpers.xml
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\bin\System.Web.Mvc.xml
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\obj\Debug\E-Commerce.csprojResolveAssemblyReference.cache
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\obj\Debug\E-Commerce.dll
+C:\Users\المصطفى نت\Desktop\E-Commerce\E-Commerce\obj\Debug\E-Commerce.pdb

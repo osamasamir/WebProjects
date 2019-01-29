@@ -1,0 +1,51 @@
+﻿
+@model E_Commerce.Models.User
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddUser</title>
+    <link href="~/content/bootstrap.css" rel="stylesheet" />
+    <script src="~/scripts/jquery-3.3.1.js"></script>
+    <script src="~/scripts/bootstrap.js"></script>
+
+</head>
+<body>
+    <a href="/user/index" style="text-decoration:none;float:right">back to Home</a>
+
+    <form method="post" action="/User/Create" >
+
+        <div class="form-group">
+            <label>User Name</label>
+            @Html.ValidationMessageFor(a => a.UserName, null, new { @class = "text-danger" })
+            @Html.TextBoxFor(a => a.UserName,new { type = "text",@class="form-control", id = "tex1", placeholder = "Enter Your Name", autofocus = "autofocus" })
+
+        </div>
+        <div class="form-group">
+            <label>Your Password</label>
+            @Html.ValidationMessageFor(a => a.UserPassword, null, new { @class = "text-danger" })
+            @Html.TextBoxFor(a => a.UserPassword, new { type = "password", @class = "form-control", id = "tex2", placeholder = "Enter Your Password" })
+
+        </div> 
+        <div class="form-group">
+    <label>Email address</label>
+            @Html.ValidationMessageFor(a => a.UserEmail, null, new { @class = "text-danger" })
+            @Html.TextBoxFor(a => a.UserEmail, new { type = "email", @class = "form-control", id = "tex3", placeholder = "name@example.com" })
+
+    </div>
+
+ <button type="submit" id="btn1" class="btn btn-primary">Save</button>
+  <button type="reset" id="btn2" class="btn btn-danger" style="margin-left: 110px;">Reset</button>
+
+      </form>
+    <script src="~/scripts/jquery-3.3.1.js"></script>
+    <script src="~/scripts/jquery.validate.js"></script>
+    <script src="~/scripts/jquery.validate.unobtrusive.js"></script>
+</body>
+</html>

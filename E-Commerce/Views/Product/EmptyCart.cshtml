@@ -1,0 +1,86 @@
+﻿@model List<E_Commerce.Models.Product>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Empty Cart</title>
+    <link href="~/content/bootstrap.css" rel="stylesheet" />
+    <script src="~/scripts/jquery-3.3.1.js"></script>
+    <script src="~/scripts/bootstrap.js"></script>
+
+</head>
+<body>
+    <div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-topt">
+            <a class="navbar-brand js-scroll-trigger" href="#"> All Site Information</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav">
+                    <a id="a1" class="nav-item nav-link active" href="/Product/Index" style="margin-left: 45px; color:red">Home  <span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link active" href="/User/Index" style="margin-left: 45px; color:red"> Log Out</a>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <header class="bg-primary:background-color text-white:#383d41 !important ">
+        <div class="container text-center">
+            <p class="lead">Shopping Cart</p>
+
+        </div>
+    </header>
+    <header class="bg-dark text-white ">
+        <div class="container text-center">
+            @*<input type="submit" value="Continue Shopping" class="btn btn-dark border-info" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;*@
+            <form action="/Product/Index" style="display:inline-block">
+
+                <input type="submit" value="Continue Shopping" class="btn btn-dark border-info" /><br />
+            </form>
+
+            @*<input type="submit" value="Empty Cart" class="btn btn-dark border-info" />*@
+
+           
+                <form action="/Product/EmptyCart" style="display:inline-block">
+
+                    <input type="text" name="username" style="display:none" value="@Session["x"]" />
+
+                    <input type="submit" value="Empty Cart" class="btn btn-dark border-info" /><br />
+                </form>
+            
+        </div>
+    </header>
+
+
+
+    <section id="about">
+        <fieldset style="border:groove">
+            <label style="float:right;font-size:x-large">Total LE</label><br />
+            <form class="container text-center">
+                <input type="submit" value="Secure Checkout" class="btn btn-primary" /><br />
+
+            </form>
+        </fieldset>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+        <div class="container">
+            <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+        </div>
+        <!-- /.container -->
+    </footer>
+
+
+</body>
+</html>

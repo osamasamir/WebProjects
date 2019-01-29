@@ -1,0 +1,129 @@
+﻿@model List<E_Commerce.Models.Product>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="~/content/bootstrap.css" rel="stylesheet" />
+    <script src="~/scripts/jquery-3.3.1.js"></script>
+    <script src="~/scripts/bootstrap.js"></script> 
+    <script>
+        $("#btn").click(function () {
+
+            this.hidden;
+        });
+
+    </script>
+</head>
+<body>
+    welcome : @Session["x"]
+      <div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-topt" >
+            <a class="navbar-brand js-scroll-trigger" href="#"> All Site Information</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="navbar-nav">
+                    @*<a id="a1" class="nav-item nav-link active" href="/Product/Cart" style="margin-left: 45px; color:red">go to your cart  <span class="sr-only">(current)</span></a>*@              
+                    
+                    <a class="nav-item nav-link active" href="/user/Index" style="margin-left: 45px; color:red"> Log Out</a>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <header class="bg-primary text-white">
+        <div class="container text-center">
+            @*<a href="/Product/Cart" style="text-decoration:none;font-size:larger;color:black">go to your cart</a>*@
+            <h1>Welcome to Site</h1>
+            <p class="lead">Here are some items | recommnd</p>
+
+          </div>
+    </header>
+
+    <header class="bg-dark text-white ">
+        <div class="container text-center">
+            <form action="/Product/ViewCart" style="display:inline-block">
+                <input type="text" name="username" style="display:none" value="@Session["x"]" />
+
+                <input type="submit" value="go to your cart" class="btn btn-primary" /><br />
+            </form>
+
+        </div>
+    </header>
+    @*@foreach (var item in Model)
+            {
+        <form action="/Product/Cart" style="display:inline-block">
+            <input type="text" name="id" style="display:none" value="@item.ProductId" />
+            <input type="text" name="username" style="display:none" value="@Session["x"]" />
+
+                <img src="~/docs/@item.ProductImage" width="100" height="100" /> <br />
+                @item.ProductName  <br />
+                <input type="submit" value="Add to Cart" class="btn btn-primary" /><br />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@item.ProductPrice LE
+        </form>
+    }*@
+    
+    @foreach (var item in Model)
+    {
+
+        using (Ajax.BeginForm("CartAjax", "Product", new AjaxOptions { UpdateTargetId = "div55" },new {style= "display: inline-block"}))
+        {
+            <div style="display:inline-block;margin-left:12px;">
+
+                <input type="text" name="id" style="display:none" value="@item.ProductId" />
+                <input type="text" name="username" style="display:none" value="@Session["x"]" />
+
+                <img src="~/docs/@item.ProductImage" width="100" height="100" /> <br />
+                @item.ProductName  <br />
+               
+                <input type="submit" id="btn" value="Add to Cart" class="btn btn-primary" /><br />
+                <div id="div55" style="font-size:large;color:crimson">
+
+                </div>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@item.ProductPrice LE
+                
+            </div>
+        }
+    }
+
+    
+        <section id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto">
+                        <h2>About this page</h2>
+                        <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
+                        <ul>
+                            <li>Clickable nav links that smooth scroll to page sections</li>
+                            <li>Responsive behavior when clicking nav links perfect for a one page website</li>
+                            <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
+                            <li>Minimal custom CSS so you are free to explore your own unique design options</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer -->
+        <footer class="py-5 bg-dark">
+            <div class="container">
+                <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
+            </div>
+            <!-- /.container -->
+        </footer>
+
+    <script src="~/scripts/jquery-3.3.1.js"></script>
+    <script src="~/scripts/jquery.unobtrusive-ajax.js"></script>
+</body>
+</html>

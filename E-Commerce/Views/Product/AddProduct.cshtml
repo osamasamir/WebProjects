@@ -1,0 +1,49 @@
+﻿@model E_Commerce.Models.Product
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>AddProduct</title>
+    <link href="~/content/bootstrap.css" rel="stylesheet" />
+    <script src="~/scripts/jquery-3.3.1.js"></script>
+    <script src="~/scripts/bootstrap.js"></script>
+
+</head>
+<body>
+    <a href="/user/index" style="text-decoration:none;float:right">back to Home</a>
+
+    <form method="post" action="/Product/AddProduct" enctype="multipart/form-data" >
+
+        <div class="form-group">
+            <label>Product Name</label>
+            @Html.ValidationMessageFor(a => a.ProductName, null, new { @class = "text-danger" })
+            @Html.TextBoxFor(a => a.ProductName, new { type = "text", @class = "form-control", id = "tex1", placeholder = "Enter Product Name", autofocus = "autofocus" })
+
+        </div>
+        <div class="form-group">
+            <label>Product Price</label>
+            @Html.ValidationMessageFor(a => a.ProductPrice, null, new { @class = "text-danger" })
+            @Html.TextBoxFor(a => a.ProductPrice, new { type = "text", @class = "form-control", id = "tex2", placeholder = "Enter Product Price" })
+
+        </div>
+        <div class="form-group">
+            <label>Product Image</label>
+            <input type="file" name="photo" /><br />
+
+        </div>
+
+        <button type="submit" id="btn1" class="btn btn-primary">Save</button>
+        <button type="reset" id="btn2" class="btn btn-danger" style="margin-left: 110px;">Reset</button>
+
+    </form>
+    <script src="~/scripts/jquery-3.3.1.js"></script>
+    <script src="~/scripts/jquery.validate.js"></script>
+    <script src="~/scripts/jquery.validate.unobtrusive.js"></script>
+</body>
+</html>
